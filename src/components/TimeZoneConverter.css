@@ -1,0 +1,95 @@
+/* src/TimeZoneConverter.css */
+
+.time-zone-converter {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: #2e2e2e;
+  color: white;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.reverse-button,
+.dark-mode-toggle,
+.share-button,
+.schedule-meet-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reverse-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.reverse-button:hover {
+  background-color: #45a049;
+}
+
+.dark-mode-toggle {
+  background-color: #333;
+  color: white;
+}
+
+.dark-mode-toggle:hover {
+  background-color: #555;
+}
+
+.share-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.share-button:hover {
+  background-color: #0056b3;
+}
+
+.schedule-meet-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.schedule-meet-button:hover {
+  background-color: #218838;
+}
+
+.date-picker {
+  margin-bottom: 20px;
+}
+
+.time-zones-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.time-zone-item {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.time-zone-item:hover {
+  background-color: #e9e9e9;
+}
+
+.dark-mode .time-zone-item {
+  background-color: #444;
+}
+
+.dark-mode .time-zone-item:hover {
+  background-color: #555;
+}

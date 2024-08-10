@@ -1,0 +1,80 @@
+.time-zone-converter {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.time-zone-converter h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+.reverse-button {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reverse-button:hover {
+  background-color: #0056b3;
+}
+
+.time-zones-list {
+  margin-top: 20px;
+}
+body.dark-mode {
+  background-color: #121212;
+  color: #fff;
+}
+
+.time-zone-converter.dark-mode {
+  background-color: #1e1e1e;
+}
+
+.time-zone-item.dark-mode {
+  background-color: #2e2e2e;
+}
+
+.delete-button.dark-mode {
+  background-color: #ff6666;
+}
+
+.dark-mode-toggle {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dark-mode-toggle:hover {
+  background-color: #5a6268;
+}
+
+.time-zone-item {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.time-zone-item:hover {
+  background-color: #f0f0f0;
+}
