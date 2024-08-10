@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# Title
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    Time Zone Converter
 
-## Available Scripts
+## Objective
 
-In the project directory, you can run:
+The primary goal of this assignment is to develop a Time Zone Converter application using React. The application should allow users to add, remove, and reorder time zones, convert time across different zones, and include additional functionalities such as dark mode, date picking, and shareable links.
+    
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Primary Technologies: React, JavaScript
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Libraries/Packages:
+> 'moment-timezone' for handling time zones
+> 'react-datepicker' for date picking functionality
+> 'react-beautiful-dnd' for drag-and-drop functionality
 
-### `npm test`
+## Completion Instructions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Functionality
 
-### `npm run build`
+#### Must Have
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-  A Time Zone Converter component that allows users  to convert time across multiple time zones.
+- Ability to add and remove time zones.
+- Drag-and-drop functionality to reorder time zones.
+- Date picker to adjust the current time.
+- Display the current time in different time zones.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Nice to Have
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- A toggle for dark mode.
+- Shareable link generation for the current state of the time zones.
+- A button to reverse the order of the time zones.
+- A Schedule Meet button that integrates with Google Calendar.
 
-### `npm run eject`
+### Guidelines to develop a project
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### Must Have
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Use React's state management for handling time zones and current time.
+- Ensure the application is responsive and works across different screen sizes.
+- Adhere to best practices for React development, including component reusability and separation of concerns.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Nice to Have
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Implement unit tests using Jest and React Testing Library.
+- Follow clean code principles and ensure the codebase is well-documented.
 
-## Learn More
+### Submission Instructions
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Must Have
+     
+* To start the project 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    - npm install
+    - npm start 
 
-### Code Splitting
+* GitHub Repository - { https://github.com/akhilbhumireddy/Time-Zone-Converter.git }
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### Nice to Have
 
-### Analyzing the Bundle Size
+- Deployment link - { https://time-zone-converter-two.vercel.app/?currentTime=2024-08-10T04%3A10%3A31.197Z }
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Resources
 
-### Making a Progressive Web App
+### Design files
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* No specific design files are provided. Follow best practices for UI design and ensure a user-friendly interface.
 
-### Advanced Configuration
+### APIs
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+* No external APIs are required for this assignment.
 
-### Deployment
+### Third-party packages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- moment-timezone: For managing and displaying times across different time zones.
+- react-datepicker: For implementing date picking functionality.
+- react-beautiful-dnd: For enabling drag-and-drop functionality.
